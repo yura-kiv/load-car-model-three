@@ -1,0 +1,47 @@
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  color: white;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-name {
+  display: block;
+  font-family: "Pixelify Sans", cursive;
+  font-size: 64px;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+}
+
+.footer-text {
+  color: white;
+  display: block;
+  font-family: "Pixelify Sans", cursive;
+  font-size: 36px;
+}
+
+.decoration-circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50px;
+}
